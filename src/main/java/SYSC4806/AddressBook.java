@@ -1,11 +1,11 @@
 package SYSC4806;
 
-import jakarta.persistence.CascadeType;
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
-import jakarta.persistence.OneToMany;
+import jakarta.persistence.*;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 import java.util.ArrayList;
+import java.util.List;
 
 /**
  * This class represents an AddressBook which stores a list of BuddyInfo objects.
@@ -15,10 +15,11 @@ import java.util.ArrayList;
 @Entity
 public class AddressBook {
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer id = null;
 
     @OneToMany(cascade = CascadeType.ALL)
-    private ArrayList<BuddyInfo> myBuddies;
+    private List<BuddyInfo> myBuddies;
 
     public AddressBook(){
         myBuddies = new ArrayList<>();
@@ -42,9 +43,12 @@ public class AddressBook {
         }
     }
 
+    /*
     public ArrayList<BuddyInfo> getBuddies() {
         return myBuddies;
     }
+
+     */
 
     public void setId(Integer id) {
         this.id = id;
@@ -55,6 +59,7 @@ public class AddressBook {
     }
 
     public static void main(String[] args) {
+        /*
         BuddyInfo buddy1 = new BuddyInfo("Tom", "123 Navan", "613-555-5555");
         BuddyInfo buddy2 = new BuddyInfo("Cristy", "321 Bronson", "416-555-5555");
 
@@ -63,5 +68,7 @@ public class AddressBook {
         addressBook.addBuddy(buddy2);
 
         addressBook.printBuddies();
+
+         */
     }
 }

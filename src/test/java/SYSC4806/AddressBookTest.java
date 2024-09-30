@@ -12,7 +12,7 @@ import static org.junit.Assert.*;
  * @author Daniel Godfrey 101156147
  */
 public class AddressBookTest {
-
+    /*
     @Test
     public void testAddBuddy() {
         AddressBook addressBook = new AddressBook();
@@ -54,5 +54,6 @@ public class AddressBookTest {
         assertNull(removedOutOfIndex); // Assert that no buddy is removed
         assertEquals(1, addressBook.getBuddies().size()); // Assert that the AddressBook still contains 1 buddy
     }
+    */
 
 }

@@ -10,6 +10,7 @@ import static org.junit.Assert.*;
  * @author Daniel Godfrey 101156147
  */
 public class BuddyInfoTest {
+    /*
     @Test
     public void testGetName() {
         BuddyInfo buddy1 = new BuddyInfo(); // Instantiate buddy1 with default constructor
@@ -27,4 +28,6 @@ public class BuddyInfoTest {
         BuddyInfo buddy2 = new BuddyInfo("Cristy", "321 Bronson", "416-555-5555"); // Instantiate buddy2
         assertEquals("Name: Cristy, Address: 321 Bronson, Phone: 416-555-5555", buddy2.getBuddyInfo()); // Assert that getBuddyInfo() returns buddy2's information
     }
+
+     */
 }

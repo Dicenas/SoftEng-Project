@@ -1,6 +1,8 @@
 package SYSC4806;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 /**
@@ -14,6 +16,7 @@ public class BuddyInfo {
     private String address;
     private String phoneNumber;
     @Id
+    @GeneratedValue(strategy= GenerationType.AUTO)
     private Integer id;
 
     public BuddyInfo() {
