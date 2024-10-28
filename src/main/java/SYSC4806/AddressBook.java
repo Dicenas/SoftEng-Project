@@ -29,6 +29,11 @@ public class AddressBook {
             myBuddies.add(aBuddy);
         }
     }
+
+    public BuddyInfo getBuddy(int id){
+        return this.myBuddies.get(id);
+    }
+
     public BuddyInfo removeBuddy(int index) {
 
         if(index >= 0 && index < myBuddies.size()){
@@ -43,12 +48,9 @@ public class AddressBook {
         }
     }
 
-    /*
-    public ArrayList<BuddyInfo> getBuddies() {
+    public List<BuddyInfo> getBuddies() {
         return myBuddies;
     }
-
-     */
 
     public void setId(Integer id) {
         this.id = id;

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="com.obiscr.chatgpt.settings.EasyCodeState">
+    <option name="projectFiles" value="$PROJECT_DIR$/src/main/java/SYSC4806/AddressBook.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/main/java/SYSC4806/AddressBookApplication.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/main/java/SYSC4806/AddressBookController.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/main/java/SYSC4806/AddressBookRepository.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/main/java/SYSC4806/BuddyInfo.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/main/java/SYSC4806/BuddyInfoRepository.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/main/resources/templates/addressbook.html;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/test/java/SYSC4806/AddressBookTest.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/src/test/java/SYSC4806/BuddyInfoTest.java;C:/Carleton/Fall 2024/SYSC4806/Lab2/pom.xml" />
+  </component>
+</project>

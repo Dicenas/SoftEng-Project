@@ -16,6 +16,7 @@ public class AddressBookApplication {
         SpringApplication.run(AddressBookApplication.class, args);
     }
 
+    /*
     @Bean
     public CommandLineRunner demo(BuddyInfoRepository repository) {
         return (args) -> {
@@ -47,4 +48,7 @@ public class AddressBookApplication {
             log.info("");
         };
     }
+
+     */
+
 }

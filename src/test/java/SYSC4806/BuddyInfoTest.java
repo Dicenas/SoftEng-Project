@@ -30,4 +30,7 @@ public class BuddyInfoTest {
     }
 
      */
+    public static class Controller {
+
+    }
 }
